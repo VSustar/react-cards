@@ -1,11 +1,9 @@
 import './App.css';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {HashRouter as Router, Route} from 'react-router-dom';
 import UserList from './containers/Users'
 import User from './containers/UserDetails'
-
-
 
 function App() {
   const [users, setUsers] = useState([]);

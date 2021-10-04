@@ -1,9 +1,8 @@
 body{
-    margin: 5px;
     background: radial-gradient(#e5e5e5, #ffff, #e5e5e5 );
 }
 
-.card{width: 70rem;
+.card{width: 50rem;
     padding:1rem 0!important;
 }
 
@@ -40,11 +39,10 @@ body{
   }
 
 .btn {
-    font-size: 4rem;
     width: 7.5rem;
     height: 3.5rem;
     color: #355392;
-    border-radius: 50%;
+    border-radius: 100%;
     box-shadow:5 px 10 px 20 px 1 px rgba(0,0,0, 0.253);
 }
 
